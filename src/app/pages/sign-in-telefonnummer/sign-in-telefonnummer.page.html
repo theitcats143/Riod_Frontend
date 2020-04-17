@@ -1,0 +1,51 @@
+<ion-content fullscreen>
+
+  <ion-grid class="grid-style">
+<img src="../../../assets/svg/RIOD_Lettertype.svg" style="width: 40vw; margin-bottom: 10vh; margin-left: 28%;" alt="">
+
+  <ion-row class="ion-align-items-start">
+    <ion-col>
+     <h1 style="font-family: fantasy;">Sign Up</h1>
+    </ion-col>
+  </ion-row>
+  <ion-row class="ion-align-items-start">
+  <ion-text>
+    <p style="color:gray;font-size:small">Please confirm your phone country code and enter your phone number</p>
+  </ion-text>
+</ion-row>
+
+  <ion-row class="ion-align-items-center ion-justify-content-center">
+    <ion-item class="item-content">
+     <ion-input
+        class="text-input"
+        type="number"
+        placeholder="Your phone number"
+      ></ion-input>
+      <!--Folgende Zeile ist für Anzeige der Fahne und Vorauswahlnummer jewiliges Landes.Klappt's noch nicht-->
+      <!--
+      <input type="text" ng2TelInput (hasError)="hasError($event)" (ng2TelOutput)="getNumber($event)" (intlTelInputObject)="telInputObject($event)" 
+      (countryChange)="onCountryChange($event)" />
+      -->
+    </ion-item>
+  </ion-row>
+
+<ion-row>   
+    <p>
+      <input type="checkbox" />
+      <!--Das Checkbox können wir weglassen.
+       Ohne dass Checkbox, kommen wir im App mit noch weniger Clicks.
+        Das müssen wir noch entscheiden-->
+      <label style="color:gray;"> I have read and accept the Terms of Service</label>
+    </p>            
+  </ion-row>
+
+  <ion-row class="ion-justify-content-center ion-align-items-center">
+    <ion-button
+      class="main-button"
+      style=" position: absolute; bottom:10vh"
+      (click)="handyVerifizieren()">
+      Next
+    </ion-button>
+  </ion-row>
+</ion-grid>
+</ion-content>

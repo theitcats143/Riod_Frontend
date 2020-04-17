@@ -1,0 +1,30 @@
+.item-content {
+    margin-top: 10px;
+    width: 100%;
+    --background: #ffffff;
+  }
+
+  .back-button-position {
+    margin-left: 3vw;
+    margin-top: 3vh;
+    width: 30vw;
+  }
+
+
+  .grid-style {
+    padding-top: 20vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: 95%;
+  }
+
+  .main-button {
+    height: 55px;
+    width: 280px;
+    font-size: 1em;
+    font-weight: 600;
+    --border-radius: 100px;
+    --display: inline-block;
+    --color: var(--ion-color-light);
+    --box-shadow: none;
+  }

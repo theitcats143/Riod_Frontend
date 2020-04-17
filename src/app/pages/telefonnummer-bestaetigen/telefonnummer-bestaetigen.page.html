@@ -1,0 +1,45 @@
+<ion-content fullscreen>
+ 
+ 
+  <ion-grid class="grid-style">
+<img src="../../../assets/svg/RIOD_Lettertype.svg" style="width: 40vw; margin-bottom: 10vh; margin-left: 28%;" alt="">
+
+  <ion-row class="ion-align-items-start">
+    <ion-col>
+     <h1 style="font-family: fantasy;">Verification Code</h1>
+    </ion-col>
+  </ion-row>
+  <ion-row class="ion-align-items-start">
+  <ion-text>
+    <p style="color:gray;font-size:small">Please enter your code from SMS we've send you</p>
+  </ion-text>
+</ion-row>
+
+  <ion-row class="ion-align-items-center ion-justify-content-center">
+    <ion-item class="item-content">
+      <ion-input
+        class="text-input"
+        type="number"
+        placeholder=""
+      ></ion-input>
+    </ion-item>
+
+  </ion-row>
+
+
+
+<ion-row>   
+ <ion-button expand="block" fill="clear" strong="true">Send again</ion-button>          
+</ion-row>
+
+  <ion-row class="ion-justify-content-center ion-align-items-center">
+    <ion-button
+      class="main-button"
+      style=" position: absolute; bottom:10vh"
+      (click)="goToStart()">
+      Confirm
+      </ion-button
+    >
+  </ion-row>
+</ion-grid>
+</ion-content>

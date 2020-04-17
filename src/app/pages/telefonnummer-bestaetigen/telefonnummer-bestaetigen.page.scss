@@ -1,0 +1,48 @@
+.item-content {
+    margin-top: 10px;
+    width: 100%;
+    --background: #ffffff;
+  }
+
+  .back-button-position {
+    margin-left: 3vw;
+    margin-top: 3vh;
+    width: 30vw;
+  }
+
+  ion-input {
+    color: var(--ion-color-primary);
+    font-size: 1.4em;
+    font-weight: 500;
+  }
+
+  .grid-style {
+    padding-top: 20vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: 95%;
+  }
+
+  .authNotCorrect{
+    display: none;
+
+  }
+
+  .authNoInternet{
+      display: none;
+  }
+
+ion-checkbox{
+  --border-width:5px;
+}
+
+.main-button {
+    height: 55px;
+    width: 280px;
+    font-size: 1em;
+    font-weight: 600;
+    --border-radius: 100px;
+    --display: inline-block;
+    --color: var(--ion-color-light);
+    --box-shadow: none;
+  }
